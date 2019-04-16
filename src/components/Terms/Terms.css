@@ -1,0 +1,18 @@
+.terms-page
+{
+  padding: 50px;
+  font-family         : "Avenir-Heavy", Helvetica, Arial, serif;
+  font-size           : 16.25px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.terms-page h1
+{
+  margin-bottom: 15px;
+}
+.terms-page p
+{
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,17 @@
+.listed-page
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-bottom: 250px;
+}
+.listed-page p
+{
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 16.25px;
+  color               : rgba(52, 52, 52, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}

@@ -1,0 +1,90 @@
+.header-nav
+{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 97px;
+  box-shadow: 0px -5px 12px black;
+  overflow: hidden;
+}
+.landing-page
+{
+  /* width: 100%;
+  position: fixed; */
+  box-shadow: 0px 0px 0px transparent;
+  background-color: transparent;
+  top: 0px;
+}
+.heart
+{
+ position: relative;
+ margin-left: 20px;
+ bottom: 15px;
+ max-height: 47px;
+ transform: rotate(-45deg)
+}
+.site-name
+{
+  margin-left: 10px;
+}
+.site-name h2
+{
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: rgba(52, 52, 52, 1.0);
+  text-align: left;
+  line-height: 10.0px;
+}
+
+.site-name h1
+{
+  font-family         : "Avenir-Black", Helvetica, Arial, serif;
+  font-size           : 26px;
+  color               : rgba(52, 52, 52, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.logo-content
+{
+  position: relative;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.svg-rectangle
+{
+  position: absolute;
+  max-height: 78px;
+  right: -25px;
+  z-index: -1; 
+}
+.contact-agent
+{
+  color: white;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 16.25px;
+  color               : rgba(255, 255, 255, 1.0);
+  line-height         : 22.0px;
+}
+.contact-agent h2
+{
+  font-weight: 900;
+}
+
+.home
+{
+  margin-right: 50px;
+  font-family         : "Avenir-Medium", Helvetica, Arial, serif;
+  font-size           : 16.25px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Senior Coverage</title>
+  </head>
+  <body style='min-width: 1000px'>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <form>
+      <input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
+    </form>
+    <label style='display: none'><input type="hidden" id="leadid_tcpa_disclosure"/>By clicking “Submit” I provide my signature expressly consenting to marketing contact from one or more of the companies LISTED HERE and its partner companies or its subsidiaries, affiliates, or agents at the number I provided regarding Medicare supplement, Medicare Advantage, and prescription drug insurance plans via live, automated or prerecorded telephone call, text message, or email. I understand that my telephone company may impose charges on me for these contacts, and I am not required to enter into this agreement as a condition of purchasing property, goods, or services. I understand that I can revoke this consent at any time. Agents are not connected with or endorsed by the U.S. government or the federal Medicare program. I also have read and agree to the Terms and Conditions and Privacy Policy of this website.</label>
+    
+    <script id="LeadiDscript" type="text/javascript">
+      // <!--
+      (function() {
+      var s = document.createElement('script');
+      s.id = 'LeadiDscript_campaign';
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//create.lidstatic.com/campaign/5f343300-99ca-6563-0020-6c970ace2bfe.js?snippet_version=2';
+      var LeadiDscript = document.getElementById('LeadiDscript');
+      LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+      })();
+      // -->
+      </script>
+      <noscript><img src='//create.leadid.com/noscript.gif?lac=b0cce7c8-2d3a-0597-a217-7f5027d3aad9&lck=5f343300-99ca-6563-0020-6c970ace2bfe&snippet_version=2' /></noscript>
+  </body>
+  <script type="text/javascript">
+    (function() {
+      var field = 'xxTrustedFormCertUrl';
+      var provideReferrer = false;
+      var invertFieldSensitivity = false;
+      var tf = document.createElement('script');
+      tf.type = 'text/javascript'; tf.async = true;
+      tf.src = 'http' + ('https:' == document.location.protocol ? 's' : '') +
+      '://api.trustedform.com/trustedform.js?provide_referrer=' + escape(provideReferrer) + '&field=' + escape(field) + '&l='+new Date().getTime()+Math.random() + '&invert_field_sensitivity=' + invertFieldSensitivity;
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tf, s); 
+    }
+    )();
+  </script>
+  <noscript>
+      <img src="http://api.trustedform.com/ns.gif" />
+  </noscript>
+</html>
+
